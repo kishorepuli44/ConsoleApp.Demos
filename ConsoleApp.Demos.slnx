@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConsoleApp.OutputDemo/ConsoleApp.OutputDemo.csproj" />
+  <Project Path="ConsoleApp.TopLevelDemo/ConsoleApp.TopLevelDemo.csproj" Id="13f24b60-5e1f-4474-81d1-37dd617e32be" />
+  <Project Path="ConsoleApp.UserInputDemo/ConsoleApp.UserInputDemo.csproj" Id="ab81ade6-8e20-4145-a058-ddf1ad65f48e" />
+  <Project Path="ConsoleApp.VariablesDemo/ConsoleApp.VariablesDemo.csproj" Id="67c1f683-9507-4296-bfe1-38c2edc21ea6" />
+</Solution>
