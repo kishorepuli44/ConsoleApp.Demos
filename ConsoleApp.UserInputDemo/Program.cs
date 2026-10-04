@@ -1,12 +1,15 @@
 ﻿// Declare variables for user input
-string name;
+string firstName;
+string lastName;
 int age;
 int retirementAge = 65;
 
 // Prompt the user for input
-Console.Write("Enter your name: ");
+Console.Write("Enter your first name: ");
 // Read the user's name
-name = Console.ReadLine();
+firstName = Console.ReadLine();
+Console.Write("Enter your last name: ");
+lastName = Console.ReadLine();
 
 Console.WriteLine("Enter your age: ");
 age = int.Parse(Console.ReadLine());
@@ -16,9 +19,9 @@ int workingYearsLeft = retirementAge - age;
 
 if (workingYearsLeft > 0)
 {
-    Console.WriteLine($"Hello {name}, you have {workingYearsLeft} years left until retirement.");
+    Console.WriteLine($"Hello {firstName} {lastName}, you have {workingYearsLeft} years left until retirement.");
 }
 else
 {
-    Console.WriteLine($"Hello {name}, you are already at or past retirement age.");
+    Console.WriteLine($"Hello {firstName} {lastName}, you are already at or past retirement age.");
 }
